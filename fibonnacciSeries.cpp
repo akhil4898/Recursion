@@ -27,7 +27,7 @@ int main()
     cout << "Fibonnacci Series is: ";
     for (int i = 0; i < num; i++)
     {
-        cout << " " << Fib(i);
+        cout << Fib(i) << " ";
     }
     cout << endl;
     return 0;
