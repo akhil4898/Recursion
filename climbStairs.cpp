@@ -23,6 +23,6 @@ int main()
     int n;
     cout << "Enter num: ";
     cin >> n;
-    cout << "Ways to reach nth stairs: " << climbStairs(n) << endl;
+    cout << "Ways to reach " << n << "th stair: " << climbStairs(n) << endl;
     return 0;
 }
