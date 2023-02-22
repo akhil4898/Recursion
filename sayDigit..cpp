@@ -29,7 +29,7 @@ int main()
     int n;
     cout << "Enter num: ";
     cin >> n;
-    cout << "Your Digit is: ";
+    cout << "Say your Digit: ";
     sayDigit(n, arr);
     cout << endl;
     return 0;
